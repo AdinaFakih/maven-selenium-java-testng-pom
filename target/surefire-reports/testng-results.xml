@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="105815" started-at="2021-10-14T14:20:19 PKT" finished-at="2021-10-14T14:22:05 PKT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="105815" started-at="2021-10-14T14:20:19 PKT" finished-at="2021-10-14T14:22:05 PKT">
+      <class name="twelveTest.LandingPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.LandingPageTest@6f1fba17]" name="setUp" is-config="true" duration-ms="31932" started-at="2021-10-14T14:20:19 PKT" finished-at="2021-10-14T14:20:51 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goToSignInTest()[pri:0, instance:twelveTest.LandingPageTest@6f1fba17]" name="goToSignInTest" duration-ms="225" started-at="2021-10-14T14:20:51 PKT" finished-at="2021-10-14T14:20:51 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignInTest -->
+        <test-method status="PASS" signature="goToSignUpTest()[pri:0, instance:twelveTest.LandingPageTest@6f1fba17]" name="goToSignUpTest" duration-ms="288" started-at="2021-10-14T14:20:51 PKT" finished-at="2021-10-14T14:20:52 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpTest -->
+        <test-method status="PASS" signature="landingPageTitleTest()[pri:0, instance:twelveTest.LandingPageTest@6f1fba17]" name="landingPageTitleTest" duration-ms="25" started-at="2021-10-14T14:20:52 PKT" finished-at="2021-10-14T14:20:52 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageTitleTest -->
+        <test-method status="PASS" signature="logoTest()[pri:0, instance:twelveTest.LandingPageTest@6f1fba17]" name="logoTest" duration-ms="287" started-at="2021-10-14T14:20:52 PKT" finished-at="2021-10-14T14:20:52 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:twelveTest.LandingPageTest@6f1fba17]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-10-14T14:22:05 PKT" finished-at="2021-10-14T14:22:05 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- twelveTest.LandingPageTest -->
+      <class name="twelveTest.signUpPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.signUpPageTest@185d8b6]" name="setUp" is-config="true" duration-ms="9703" started-at="2021-10-14T14:20:52 PKT" finished-at="2021-10-14T14:21:02 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogoTest()[pri:0, instance:twelveTest.signUpPageTest@185d8b6]" name="LogoTest" duration-ms="178" started-at="2021-10-14T14:21:02 PKT" finished-at="2021-10-14T14:21:02 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.signUpPageTest@185d8b6]" name="tearDown" is-config="true" duration-ms="1805" started-at="2021-10-14T14:21:02 PKT" finished-at="2021-10-14T14:21:04 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.signUpPageTest@185d8b6]" name="setUp" is-config="true" duration-ms="15095" started-at="2021-10-14T14:21:04 PKT" finished-at="2021-10-14T14:21:19 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signUpPageTitleTest()[pri:0, instance:twelveTest.signUpPageTest@185d8b6]" name="signUpPageTitleTest" duration-ms="92" started-at="2021-10-14T14:21:19 PKT" finished-at="2021-10-14T14:21:19 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.signUpPageTest@185d8b6]" name="tearDown" is-config="true" duration-ms="1305" started-at="2021-10-14T14:21:19 PKT" finished-at="2021-10-14T14:21:20 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.signUpPageTest@185d8b6]" name="setUp" is-config="true" duration-ms="15330" started-at="2021-10-14T14:21:20 PKT" finished-at="2021-10-14T14:21:36 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signUpTest_Invalid_1()[pri:0, instance:twelveTest.signUpPageTest@185d8b6]" name="signUpTest_Invalid_1" duration-ms="2317" started-at="2021-10-14T14:21:36 PKT" finished-at="2021-10-14T14:21:38 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTest_Invalid_1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.signUpPageTest@185d8b6]" name="tearDown" is-config="true" duration-ms="1181" started-at="2021-10-14T14:21:38 PKT" finished-at="2021-10-14T14:21:39 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.signUpPageTest@185d8b6]" name="setUp" is-config="true" duration-ms="12970" started-at="2021-10-14T14:21:39 PKT" finished-at="2021-10-14T14:21:52 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signUpTest_Invalid_2()[pri:0, instance:twelveTest.signUpPageTest@185d8b6]" name="signUpTest_Invalid_2" duration-ms="3207" started-at="2021-10-14T14:21:52 PKT" finished-at="2021-10-14T14:21:55 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTest_Invalid_2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.signUpPageTest@185d8b6]" name="tearDown" is-config="true" duration-ms="865" started-at="2021-10-14T14:21:55 PKT" finished-at="2021-10-14T14:21:56 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.signUpPageTest@185d8b6]" name="setUp" is-config="true" duration-ms="5412" started-at="2021-10-14T14:21:56 PKT" finished-at="2021-10-14T14:22:02 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signUpTest_Invalid_3()[pri:0, instance:twelveTest.signUpPageTest@185d8b6]" name="signUpTest_Invalid_3" duration-ms="2597" started-at="2021-10-14T14:22:02 PKT" finished-at="2021-10-14T14:22:04 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTest_Invalid_3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.signUpPageTest@185d8b6]" name="tearDown" is-config="true" duration-ms="833" started-at="2021-10-14T14:22:04 PKT" finished-at="2021-10-14T14:22:05 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- twelveTest.signUpPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

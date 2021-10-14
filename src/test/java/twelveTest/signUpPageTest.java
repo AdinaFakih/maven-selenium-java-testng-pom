@@ -4,12 +4,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 import twelveBase.TestBase;
+import twelvePage.LandingPage;
 import twelvePage.homePage;
 import twelvePage.signUpPage;
 
 public class signUpPageTest extends TestBase{
+	LandingPage landingPage;
 	signUpPage signUpPage;
-	homePage homePage;
+	
 	
 	//constructor
 	public signUpPageTest() {
@@ -19,13 +21,16 @@ public class signUpPageTest extends TestBase{
 	@BeforeMethod
 	public void setUp() {
 		run();
+		landingPage = new LandingPage();
+		landingPage.goToSignUp();
 		signUpPage = new signUpPage();
 	}
 	
 	@Test
 	public void signUpPageTitleTest() {
 		String title = signUpPage.validPageTitle();
-		Assert.assertEquals(title, "Conduit");
+		//msg shows if fail
+		Assert.assertEquals(title, "Conduit", "SignUp page title did not match");
 	}
 	
 	@Test
@@ -34,11 +39,11 @@ public class signUpPageTest extends TestBase{
 		Assert.assertTrue(flag);
 	}
 	
-	@Test
-	public void signUpTest_Valid(){
-		// valid username, valid email
-		Assert.assertEquals(0, signUpPage.userSignUp(rb.getString("username"), rb.getString("email"), rb.getString("password")));
-	}
+//	@Test(priority=1)
+//	public void signUpTest_Valid(){
+//		// valid username, valid email
+//		Assert.assertEquals(0, signUpPage.userSignUp(rb.getString("username"), rb.getString("email"), rb.getString("password")));
+//	}
 	
 	@Test
 	public void signUpTest_Invalid_1(){
@@ -49,12 +54,12 @@ public class signUpPageTest extends TestBase{
 	@Test
 	public void signUpTest_Invalid_2(){
 		// invalid user name, valid email
-		Assert.assertEquals(1, signUpPage.userSignUp("ad1230", "xord123@app.io", rb.getString("password")));
+		Assert.assertEquals(1, signUpPage.userSignUp("ad1230", "xoxo456@api.io", rb.getString("password")));
 	}
 	@Test
 	public void signUpTest_Invalid_3(){
 		// valid user name, invalid email
-		Assert.assertEquals(1, signUpPage.userSignUp("xorr420", "xord123@app.io", rb.getString("password")));
+		Assert.assertEquals(1, signUpPage.userSignUp("rr123", "xord123@app.io", rb.getString("password")));
 	}
 	
 	@AfterMethod

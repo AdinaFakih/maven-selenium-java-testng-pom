@@ -9,7 +9,7 @@ import twelvePage.signUpPage;
 
 public class LandingPageTest extends TestBase{
 	LandingPage landingPage;
-	signUpPage signUpPage;
+
 	
 	//constructor
 	public LandingPageTest() {
