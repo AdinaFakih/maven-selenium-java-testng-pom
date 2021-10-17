@@ -56,6 +56,7 @@ public class signUpPageTest extends TestBase{
 		// invalid user name, valid email
 		Assert.assertEquals(1, signUpPage.userSignUp("ad1230", "xoxo456@api.io", rb.getString("password")));
 	}
+	
 	@Test
 	public void signUpTest_Invalid_3(){
 		// valid user name, invalid email

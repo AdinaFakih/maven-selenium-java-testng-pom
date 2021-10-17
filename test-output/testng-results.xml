@@ -1,99 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="135108" started-at="2021-10-14T13:55:53 PKT" finished-at="2021-10-14T13:58:08 PKT">
+  <suite name="Conduit Test Suite" duration-ms="74486" started-at="2021-10-17T19:47:02 PKT" finished-at="2021-10-17T19:48:17 PKT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="135108" started-at="2021-10-14T13:55:53 PKT" finished-at="2021-10-14T13:58:08 PKT">
+    <test name="Automation Test" duration-ms="74486" started-at="2021-10-17T19:47:02 PKT" finished-at="2021-10-17T19:48:17 PKT">
       <class name="twelveTest.LandingPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.LandingPageTest@e320068]" name="setUp" is-config="true" duration-ms="7982" started-at="2021-10-14T13:55:53 PKT" finished-at="2021-10-14T13:56:01 PKT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.LandingPageTest@78e67e0a]" name="setUp" is-config="true" duration-ms="17404" started-at="2021-10-17T19:47:02 PKT" finished-at="2021-10-17T19:47:20 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="goToSignInTest()[pri:0, instance:twelveTest.LandingPageTest@e320068]" name="goToSignInTest" duration-ms="835" started-at="2021-10-14T13:56:01 PKT" finished-at="2021-10-14T13:56:02 PKT">
+        <test-method status="PASS" signature="goToSignInTest()[pri:0, instance:twelveTest.LandingPageTest@78e67e0a]" name="goToSignInTest" duration-ms="233" started-at="2021-10-17T19:47:20 PKT" finished-at="2021-10-17T19:47:20 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToSignInTest -->
-        <test-method status="PASS" signature="goToSignUpTest()[pri:0, instance:twelveTest.LandingPageTest@e320068]" name="goToSignUpTest" duration-ms="1097" started-at="2021-10-14T13:56:02 PKT" finished-at="2021-10-14T13:56:03 PKT">
+        <test-method status="PASS" signature="goToSignUpTest()[pri:0, instance:twelveTest.LandingPageTest@78e67e0a]" name="goToSignUpTest" duration-ms="163" started-at="2021-10-17T19:47:20 PKT" finished-at="2021-10-17T19:47:20 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToSignUpTest -->
-        <test-method status="PASS" signature="landingPageTitleTest()[pri:0, instance:twelveTest.LandingPageTest@e320068]" name="landingPageTitleTest" duration-ms="75" started-at="2021-10-14T13:56:03 PKT" finished-at="2021-10-14T13:56:03 PKT">
+        <test-method status="PASS" signature="landingPageTitleTest()[pri:0, instance:twelveTest.LandingPageTest@78e67e0a]" name="landingPageTitleTest" duration-ms="10" started-at="2021-10-17T19:47:20 PKT" finished-at="2021-10-17T19:47:20 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageTitleTest -->
-        <test-method status="PASS" signature="logoTest()[pri:0, instance:twelveTest.LandingPageTest@e320068]" name="logoTest" duration-ms="302" started-at="2021-10-14T13:56:03 PKT" finished-at="2021-10-14T13:56:04 PKT">
+        <test-method status="PASS" signature="logoTest()[pri:0, instance:twelveTest.LandingPageTest@78e67e0a]" name="logoTest" duration-ms="111" started-at="2021-10-17T19:47:20 PKT" finished-at="2021-10-17T19:47:20 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:twelveTest.LandingPageTest@e320068]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-10-14T13:58:08 PKT" finished-at="2021-10-14T13:58:08 PKT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:twelveTest.LandingPageTest@78e67e0a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-10-17T19:48:17 PKT" finished-at="2021-10-17T19:48:17 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- twelveTest.LandingPageTest -->
-      <class name="twelveTest.signUpPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.signUpPageTest@1f57539]" name="setUp" is-config="true" duration-ms="16119" started-at="2021-10-14T13:56:04 PKT" finished-at="2021-10-14T13:56:20 PKT">
+      <class name="twelveTest.SignInPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.SignInPageTest@2f943d71]" name="setUp" is-config="true" duration-ms="7906" started-at="2021-10-17T19:48:08 PKT" finished-at="2021-10-17T19:48:16 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LogoTest()[pri:0, instance:twelveTest.signUpPageTest@1f57539]" name="LogoTest" duration-ms="219" started-at="2021-10-14T13:56:20 PKT" finished-at="2021-10-14T13:56:20 PKT">
+        <test-method status="PASS" signature="signInTest()[pri:0, instance:twelveTest.SignInPageTest@2f943d71]" name="signInTest" duration-ms="448" started-at="2021-10-17T19:48:16 PKT" finished-at="2021-10-17T19:48:16 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.SignInPageTest@2f943d71]" name="tearDown" is-config="true" duration-ms="731" started-at="2021-10-17T19:48:16 PKT" finished-at="2021-10-17T19:48:17 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- twelveTest.SignInPageTest -->
+      <class name="twelveTest.signUpPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.signUpPageTest@bd8db5a]" name="setUp" is-config="true" duration-ms="7499" started-at="2021-10-17T19:47:20 PKT" finished-at="2021-10-17T19:47:28 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogoTest()[pri:0, instance:twelveTest.signUpPageTest@bd8db5a]" name="LogoTest" duration-ms="71" started-at="2021-10-17T19:47:28 PKT" finished-at="2021-10-17T19:47:28 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.signUpPageTest@1f57539]" name="tearDown" is-config="true" duration-ms="6640" started-at="2021-10-14T13:56:20 PKT" finished-at="2021-10-14T13:56:27 PKT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.signUpPageTest@bd8db5a]" name="tearDown" is-config="true" duration-ms="985" started-at="2021-10-17T19:47:28 PKT" finished-at="2021-10-17T19:47:29 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.signUpPageTest@1f57539]" name="setUp" is-config="true" duration-ms="15736" started-at="2021-10-14T13:56:27 PKT" finished-at="2021-10-14T13:56:42 PKT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.signUpPageTest@bd8db5a]" name="setUp" is-config="true" duration-ms="6320" started-at="2021-10-17T19:47:29 PKT" finished-at="2021-10-17T19:47:35 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signUpPageTitleTest()[pri:0, instance:twelveTest.signUpPageTest@1f57539]" name="signUpPageTitleTest" duration-ms="127" started-at="2021-10-14T13:56:42 PKT" finished-at="2021-10-14T13:56:42 PKT">
+        <test-method status="PASS" signature="signUpPageTitleTest()[pri:0, instance:twelveTest.signUpPageTest@bd8db5a]" name="signUpPageTitleTest" duration-ms="18" started-at="2021-10-17T19:47:35 PKT" finished-at="2021-10-17T19:47:35 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.signUpPageTest@1f57539]" name="tearDown" is-config="true" duration-ms="17859" started-at="2021-10-14T13:56:42 PKT" finished-at="2021-10-14T13:57:00 PKT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.signUpPageTest@bd8db5a]" name="tearDown" is-config="true" duration-ms="754" started-at="2021-10-17T19:47:35 PKT" finished-at="2021-10-17T19:47:36 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.signUpPageTest@1f57539]" name="setUp" is-config="true" duration-ms="19450" started-at="2021-10-14T13:57:00 PKT" finished-at="2021-10-14T13:57:20 PKT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.signUpPageTest@bd8db5a]" name="setUp" is-config="true" duration-ms="6769" started-at="2021-10-17T19:47:36 PKT" finished-at="2021-10-17T19:47:43 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signUpTest_Invalid_1()[pri:0, instance:twelveTest.signUpPageTest@1f57539]" name="signUpTest_Invalid_1" duration-ms="7173" started-at="2021-10-14T13:57:20 PKT" finished-at="2021-10-14T13:57:27 PKT">
+        <test-method status="PASS" signature="signUpTest_Invalid_1()[pri:0, instance:twelveTest.signUpPageTest@bd8db5a]" name="signUpTest_Invalid_1" duration-ms="3759" started-at="2021-10-17T19:47:43 PKT" finished-at="2021-10-17T19:47:47 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpTest_Invalid_1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.signUpPageTest@1f57539]" name="tearDown" is-config="true" duration-ms="8118" started-at="2021-10-14T13:57:27 PKT" finished-at="2021-10-14T13:57:35 PKT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.signUpPageTest@bd8db5a]" name="tearDown" is-config="true" duration-ms="810" started-at="2021-10-17T19:47:47 PKT" finished-at="2021-10-17T19:47:47 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.signUpPageTest@1f57539]" name="setUp" is-config="true" duration-ms="10540" started-at="2021-10-14T13:57:35 PKT" finished-at="2021-10-14T13:57:46 PKT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.signUpPageTest@bd8db5a]" name="setUp" is-config="true" duration-ms="7665" started-at="2021-10-17T19:47:47 PKT" finished-at="2021-10-17T19:47:55 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signUpTest_Invalid_2()[pri:0, instance:twelveTest.signUpPageTest@1f57539]" name="signUpTest_Invalid_2" duration-ms="4226" started-at="2021-10-14T13:57:46 PKT" finished-at="2021-10-14T13:57:50 PKT">
+        <test-method status="PASS" signature="signUpTest_Invalid_2()[pri:0, instance:twelveTest.signUpPageTest@bd8db5a]" name="signUpTest_Invalid_2" duration-ms="2577" started-at="2021-10-17T19:47:55 PKT" finished-at="2021-10-17T19:47:58 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpTest_Invalid_2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.signUpPageTest@1f57539]" name="tearDown" is-config="true" duration-ms="1078" started-at="2021-10-14T13:57:50 PKT" finished-at="2021-10-14T13:57:51 PKT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.signUpPageTest@bd8db5a]" name="tearDown" is-config="true" duration-ms="751" started-at="2021-10-17T19:47:58 PKT" finished-at="2021-10-17T19:47:58 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.signUpPageTest@1f57539]" name="setUp" is-config="true" duration-ms="13096" started-at="2021-10-14T13:57:51 PKT" finished-at="2021-10-14T13:58:04 PKT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:twelveTest.signUpPageTest@bd8db5a]" name="setUp" is-config="true" duration-ms="6349" started-at="2021-10-17T19:47:58 PKT" finished-at="2021-10-17T19:48:05 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signUpTest_Invalid_3()[pri:0, instance:twelveTest.signUpPageTest@1f57539]" name="signUpTest_Invalid_3" duration-ms="2158" started-at="2021-10-14T13:58:04 PKT" finished-at="2021-10-14T13:58:06 PKT">
+        <test-method status="PASS" signature="signUpTest_Invalid_3()[pri:0, instance:twelveTest.signUpPageTest@bd8db5a]" name="signUpTest_Invalid_3" duration-ms="2347" started-at="2021-10-17T19:48:05 PKT" finished-at="2021-10-17T19:48:07 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpTest_Invalid_3 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.signUpPageTest@1f57539]" name="tearDown" is-config="true" duration-ms="2072" started-at="2021-10-14T13:58:06 PKT" finished-at="2021-10-14T13:58:08 PKT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:twelveTest.signUpPageTest@bd8db5a]" name="tearDown" is-config="true" duration-ms="729" started-at="2021-10-17T19:48:07 PKT" finished-at="2021-10-17T19:48:08 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- twelveTest.signUpPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Automation Test -->
+  </suite> <!-- Conduit Test Suite -->
 </testng-results>
