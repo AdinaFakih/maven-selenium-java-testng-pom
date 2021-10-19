@@ -31,17 +31,17 @@ public class SignInPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void userSignIn(String in_email, String in_pwd) {	
+	public boolean userSignIn(String in_email, String in_pwd) {	
 		email.sendKeys(in_email);
 		password.sendKeys(in_pwd);
 		signInBtn.click();
-//		
-//		if(error_msg.isDisplayed()) {
-//			System.out.println("Sign In was not successful");
-//			return "1"; //fail
-//		}else if (your_feed.isDisplayed()) {
-//			System.out.println("Sign In was Successful");
-//			return "0"; //pass
-//		}else{}
-	}
+		
+		if(error_msg.isDisplayed()) {
+			System.out.println("Sign In was not successful");
+			return false; //fail
+		}else {
+			System.out.println("Sign In was Successful");
+			return true; //pas
+		}
+}
 }

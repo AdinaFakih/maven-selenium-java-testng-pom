@@ -1,6 +1,10 @@
 package twelveBase;
 import java.util.ResourceBundle;
 import java.util.concurrent.TimeUnit;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.message.LoggerNameAwareMessage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -17,6 +21,8 @@ public class TestBase {
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
 	
+	public static Logger log = LogManager.getLogger(TestBase.class);
+	
 	//constructor 
 	public TestBase() {
 		rb = ResourceBundle.getBundle("config");
@@ -28,6 +34,10 @@ public class TestBase {
 		if(browserName.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 		    driver = new ChromeDriver();
+		    log.info("launching chrome browser");
+		    log.warn("logs for warn");
+		    log.fatal("logs for fatal");
+
 		}else if(browserName.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 		    driver = new FirefoxDriver();
@@ -43,6 +53,7 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+		log.info("Entering application URL");
 		driver.get(rb.getString("url_landingPage"));	 
 	}
 }

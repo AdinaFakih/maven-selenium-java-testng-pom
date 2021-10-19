@@ -1,0 +1,4 @@
+[INFO ] 2021-10-18 10:26:14.013 [main] TestBase - launching chrome browser
+[WARN ] 2021-10-18 10:26:14.017 [main] TestBase - logs for warn
+[FATAL] 2021-10-18 10:26:14.017 [main] TestBase - logs for fatal
+[INFO ] 2021-10-18 10:26:14.728 [main] TestBase - Entering application URL

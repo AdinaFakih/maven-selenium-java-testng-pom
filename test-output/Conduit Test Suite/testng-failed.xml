@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Conduit Test Suite]">
+  <listeners>
+    <listener class-name="ExtentReportListener.ExtentReportNG"/>
+  </listeners>
+  <test thread-count="5" name="Automation Test(failed)">
+    <classes>
+      <class name="twelveTest.signUpPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="signUpTest_Invalid_1"/>
+          <include name="signUpTest_Invalid_3"/>
+          <include name="signUpTest_Invalid_2"/>
+        </methods>
+      </class> <!-- twelveTest.signUpPageTest -->
+    </classes>
+  </test> <!-- Automation Test(failed) -->
+</suite> <!-- Failed suite [Conduit Test Suite] -->
