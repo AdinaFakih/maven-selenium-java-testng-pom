@@ -16,7 +16,7 @@ public class TestUtil extends TestBase{
 	
 	public static long PAGE_LOAD_TIMEOUT = 40;
 	public static long IMPLICIT_WAIT = 20;
-	public static String TESTDATA_SHEET_PATH = "C:/Users/addyf/eclipse-workspace/Conduit/src/main/resources/testData.xlsx";
+	public static String TESTDATA_SHEET_PATH = "C:\\Users\\addyf\\eclipse-workspace\\Conduit\\src\\test\\resources\\testData.xlsx";
 	
 	static Workbook book;
 	static Sheet sheet;
