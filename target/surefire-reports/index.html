@@ -24,23 +24,23 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
-      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
-              <span class="suite-name border-passed">Surefire suite</span>
+            <a href="#" panel-name="suite-Conduit_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Conduit Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
-                    <span>[unset file name]</span>
+                  <a href="#" panel-name="test-xml-Conduit_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\addyf\eclipse-workspace\Conduit\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                  <a href="#" panel-name="testlist-Conduit_Test_Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                  <a href="#" panel-name="group-Conduit_Test_Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                  <a href="#" panel-name="times-Conduit_Test_Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                  <a href="#" panel-name="reporter-Conduit_Test_Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                  <a href="#" panel-name="ignored-methods-Conduit_Test_Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                  <a href="#" panel-name="chronological-Conduit_Test_Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,61 +93,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Conduit_Test_Suite" class="hide-methods failed suite-Conduit_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Conduit_Test_Suite -->
+                      <a href="#" panel-name="suite-Conduit_Test_Suite" class="show-methods failed suite-Conduit_Test_Suite"> (show)</a> <!-- show-methods failed suite-Conduit_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Conduit_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Conduit_Test_Suite" title="twelveTest.signUpPageTest" class="method navigator-link" hash-for-method="signUpPageTitleTest">signUpPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Conduit_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Conduit_Test_Suite" class="hide-methods passed suite-Conduit_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Conduit_Test_Suite -->
+                      <a href="#" panel-name="suite-Conduit_Test_Suite" class="show-methods passed suite-Conduit_Test_Suite"> (show)</a> <!-- show-methods passed suite-Conduit_Test_Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Surefire_suite">
+                    <div class="method-list-content passed suite-Conduit_Test_Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="twelveTest.signUpPageTest" hash-for-method="LogoTest">LogoTest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Conduit_Test_Suite" title="twelveTest.signUpPageTest" class="method navigator-link" hash-for-method="signUpTest_Invalid_1">signUpTest_Invalid_1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="twelveTest.LandingPageTest" hash-for-method="goToSignInTest">goToSignInTest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Conduit_Test_Suite" title="twelveTest.signUpPageTest" class="method navigator-link" hash-for-method="signUpTest_Invalid_2">signUpTest_Invalid_2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="twelveTest.LandingPageTest" hash-for-method="goToSignUpTest">goToSignUpTest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Conduit_Test_Suite" title="twelveTest.signUpPageTest" class="method navigator-link" hash-for-method="signUpTest_Invalid_3">signUpTest_Invalid_3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="twelveTest.LandingPageTest" hash-for-method="landingPageTitleTest">landingPageTitleTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="twelveTest.LandingPageTest" hash-for-method="logoTest">logoTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="twelveTest.signUpPageTest" hash-for-method="signUpPageTitleTest">signUpPageTitleTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="twelveTest.signUpPageTest" hash-for-method="signUpTest_Invalid_1">signUpTest_Invalid_1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="twelveTest.signUpPageTest" hash-for-method="signUpTest_Invalid_2">signUpTest_Invalid_2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="twelveTest.signUpPageTest" hash-for-method="signUpTest_Invalid_3">signUpTest_Invalid_3</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                    </div> <!-- method-list-content passed suite-Conduit_Test_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -158,8 +142,64 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-passed">
+        <div panel-name="suite-Conduit_Test_Suite" class="panel Conduit_Test_Suite">
+          <div class="suite-Conduit_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">twelveTest.signUpPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpPageTitleTest">
+                  </a> <!-- signUpPageTitleTest -->
+                  <span class="method-name">signUpPageTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: SignUp page title did not match expected [Condut] but found [Conduit]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at twelveTest.signUpPageTest.signUpPageTitleTest(signUpPageTest.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Conduit_Test_Suite-class-failed -->
+          <div class="suite-Conduit_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">twelveTest.signUpPageTest</span>
@@ -167,23 +207,11 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LogoTest">
-                  </a> <!-- LogoTest -->
-                  <span class="method-name">LogoTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="signUpPageTitleTest">
-                  </a> <!-- signUpPageTitleTest -->
-                  <span class="method-name">signUpPageTitleTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="signUpTest_Invalid_1">
                   </a> <!-- signUpTest_Invalid_1 -->
                   <span class="method-name">signUpTest_Invalid_1</span>
+                  <em>
+(invalid user name, invalid email test case)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -201,253 +229,168 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">twelveTest.LandingPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="goToSignInTest">
-                  </a> <!-- goToSignInTest -->
-                  <span class="method-name">goToSignInTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="goToSignUpTest">
-                  </a> <!-- goToSignUpTest -->
-                  <span class="method-name">goToSignUpTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="landingPageTitleTest">
-                  </a> <!-- landingPageTitleTest -->
-                  <span class="method-name">landingPageTitleTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logoTest">
-                  </a> <!-- logoTest -->
-                  <span class="method-name">logoTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-        </div> <!-- panel Surefire_suite -->
-        <div panel-name="test-xml-Surefire_suite" class="panel">
+          </div> <!-- suite-Conduit_Test_Suite-class-passed -->
+        </div> <!-- panel Conduit_Test_Suite -->
+        <div panel-name="test-xml-Conduit_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\addyf\eclipse-workspace\Conduit\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
-  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+&lt;suite name=&quot;Conduit Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;10&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;reportListeners.ExtentReportNG&quot;/&gt;
+    &lt;listener class-name=&quot;reportListeners.testAllureListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Automation Test&quot; verbose=&quot;10&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;twelveTest.LandingPageTest&quot;/&gt;
       &lt;class name=&quot;twelveTest.signUpPageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Surefire test --&gt;
-&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+  &lt;/test&gt; &lt;!-- Automation Test --&gt;
+&lt;/suite&gt; &lt;!-- Conduit Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Surefire_suite" class="panel">
+        <div panel-name="testlist-Conduit_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Surefire suite</span>
+            <span class="header-content">Tests for Conduit Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (2 classes)</span>
+                <span class="test-name">Automation Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Surefire_suite" class="panel">
+        <div panel-name="group-Conduit_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Surefire suite</span>
+            <span class="header-content">Groups for Conduit Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Surefire_suite" class="panel">
+        <div panel-name="times-Conduit_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Surefire suite</span>
+            <span class="header-content">Times for Conduit Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Surefire_suite');
-function tableData_Surefire_suite() {
+suiteTableInitFunctions.push('tableData_Conduit_Test_Suite');
+function tableData_Conduit_Test_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'signUpTest_Invalid_2')
+data.setCell(0, 1, 'signUpTest_Invalid_1')
 data.setCell(0, 2, 'twelveTest.signUpPageTest')
-data.setCell(0, 3, 3207);
+data.setCell(0, 3, 2494);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'signUpTest_Invalid_3')
+data.setCell(1, 1, 'signUpTest_Invalid_2')
 data.setCell(1, 2, 'twelveTest.signUpPageTest')
-data.setCell(1, 3, 2597);
+data.setCell(1, 3, 2051);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'signUpTest_Invalid_1')
+data.setCell(2, 1, 'signUpTest_Invalid_3')
 data.setCell(2, 2, 'twelveTest.signUpPageTest')
-data.setCell(2, 3, 2317);
+data.setCell(2, 3, 2050);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'goToSignUpTest')
-data.setCell(3, 2, 'twelveTest.LandingPageTest')
-data.setCell(3, 3, 288);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'logoTest')
-data.setCell(4, 2, 'twelveTest.LandingPageTest')
-data.setCell(4, 3, 287);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'goToSignInTest')
-data.setCell(5, 2, 'twelveTest.LandingPageTest')
-data.setCell(5, 3, 225);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'LogoTest')
-data.setCell(6, 2, 'twelveTest.signUpPageTest')
-data.setCell(6, 3, 178);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'signUpPageTitleTest')
-data.setCell(7, 2, 'twelveTest.signUpPageTest')
-data.setCell(7, 3, 92);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'landingPageTitleTest')
-data.setCell(8, 2, 'twelveTest.LandingPageTest')
-data.setCell(8, 3, 25);
-window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+data.setCell(3, 1, 'signUpPageTitleTest')
+data.setCell(3, 2, 'twelveTest.signUpPageTest')
+data.setCell(3, 3, 156);
+window.suiteTableData['Conduit_Test_Suite']= { tableData: data, tableDiv: 'times-div-Conduit_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
-              <div id="times-div-Surefire_suite">
-              </div> <!-- times-div-Surefire_suite -->
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-Conduit_Test_Suite">
+              </div> <!-- times-div-Conduit_Test_Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Surefire_suite" class="panel">
+        <div panel-name="reporter-Conduit_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Surefire suite</span>
+            <span class="header-content">Reporter output for Conduit Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+        <div panel-name="ignored-methods-Conduit_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">twelveTest.signUpPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">LogoTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Surefire_suite" class="panel">
+        <div panel-name="chronological-Conduit_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">twelveTest.LandingPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">goToSignInTest</span>
-                <span class="method-start">32067 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">goToSignUpTest</span>
-                <span class="method-start">32296 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">landingPageTitleTest</span>
-                <span class="method-start">32585 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logoTest</span>
-                <span class="method-start">32613 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">twelveTest.signUpPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">32904 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">LogoTest</span>
-                <span class="method-start">42610 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">42789 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">44595 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">signUpPageTitleTest</span>
-                <span class="method-start">59690 ms</span>
+                <span class="method-start">16149 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">59783 ms</span>
+                <span class="method-start">16413 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">61090 ms</span>
+                <span class="method-start">17057 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">signUpTest_Invalid_1</span>
-                <span class="method-start">76420 ms</span>
+                <span class="method-start">24331 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">78738 ms</span>
+                <span class="method-start">26834 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">79920 ms</span>
+                <span class="method-start">27332 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">signUpTest_Invalid_2</span>
-                <span class="method-start">92890 ms</span>
+                <span class="method-start">31838 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">96097 ms</span>
+                <span class="method-start">33892 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">96964 ms</span>
+                <span class="method-start">34418 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">signUpTest_Invalid_3</span>
-                <span class="method-start">102376 ms</span>
+                <span class="method-start">38899 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">104974 ms</span>
+                <span class="method-start">40951 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">twelveTest.LandingPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">105808 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

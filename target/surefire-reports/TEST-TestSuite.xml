@@ -1,130 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="107.119" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="51.02" tests="4" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="sun.desktop" value="windows"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\addyf\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe"/>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\addyf\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\addyf\eclipse-workspace\Conduit\target\test-classes;C:\Users\addyf\eclipse-workspace\Conduit\target\classes;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\addyf\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\addyf\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\addyf\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\addyf\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\addyf\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\addyf\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\addyf\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\addyf\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\addyf\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\addyf\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\addyf\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\addyf\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\addyf\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\addyf\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\addyf\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\addyf\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\addyf\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\addyf\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\addyf\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\addyf\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\addyf\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\addyf\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\addyf\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\addyf\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\addyf\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\addyf\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\addyf\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\addyf\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\addyf\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\addyf\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\addyf\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\addyf\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\addyf\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\addyf\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\addyf\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\addyf\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\addyf\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\addyf\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\addyf\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;"/>
+    <property name="java.class.path" value="C:\Users\addyf\eclipse-workspace\Conduit\target\test-classes;C:\Users\addyf\eclipse-workspace\Conduit\target\classes;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\addyf\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\addyf\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\addyf\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\addyf\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\addyf\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\addyf\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\addyf\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\addyf\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\addyf\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\addyf\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\addyf\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\addyf\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\addyf\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\addyf\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\addyf\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\addyf\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\addyf\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\addyf\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\addyf\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\addyf\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\addyf\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\addyf\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\addyf\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\addyf\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\addyf\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\addyf\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\addyf\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\addyf\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\addyf\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\addyf\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\addyf\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\addyf\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\addyf\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\addyf\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\addyf\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\addyf\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\addyf\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\addyf\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\addyf\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\addyf\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\addyf\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\addyf\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\addyf\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\addyf\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\addyf\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\addyf\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\addyf\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\addyf\.m2\repository\io\qameta\allure\allure-testng\2.15.0\allure-testng-2.15.0.jar;C:\Users\addyf\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\addyf\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\addyf\.m2\repository\io\qameta\allure\allure-test-filter\2.15.0\allure-test-filter-2.15.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Karachi"/>
     <property name="user.country.format" value="PK"/>
-    <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="user.country" value="US"/>
+    <property name="java.vm.specification.version" value="16"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\addyf\AppData\Local\Temp\surefire6702756029546954440\surefirebooter8842234502043181004.jar C:\Users\addyf\AppData\Local\Temp\surefire6702756029546954440 2021-10-14T14-20-16_154-jvmRun1 surefire1747556478706713568tmp surefire_07709865908156518tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\addyf\eclipse-workspace\Conduit\target\test-classes;C:\Users\addyf\eclipse-workspace\Conduit\target\classes;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\addyf\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\addyf\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\addyf\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\addyf\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\addyf\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\addyf\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\addyf\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\addyf\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\addyf\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\addyf\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\addyf\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\addyf\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\addyf\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\addyf\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\addyf\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\addyf\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\addyf\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\addyf\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\addyf\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\addyf\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\addyf\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\addyf\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\addyf\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\addyf\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\addyf\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\addyf\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\addyf\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\addyf\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\addyf\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\addyf\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\addyf\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\addyf\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\addyf\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\addyf\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\addyf\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\addyf\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\addyf\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\addyf\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\addyf\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\addyf\AppData\Local\Temp\surefire8486761357734065621\surefirebooter16870867416948834120.jar C:\Users\addyf\AppData\Local\Temp\surefire8486761357734065621 2021-12-02T13-18-35_310-jvmRun1 surefire10496304199719246072tmp surefire_012874182603945770564tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\addyf\eclipse-workspace\Conduit\target\test-classes;C:\Users\addyf\eclipse-workspace\Conduit\target\classes;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\addyf\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\addyf\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\addyf\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\addyf\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\addyf\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\addyf\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\addyf\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\addyf\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\addyf\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\addyf\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\addyf\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\addyf\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\addyf\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\addyf\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\addyf\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\addyf\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\addyf\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\addyf\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\addyf\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\addyf\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\addyf\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\addyf\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\addyf\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\addyf\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\addyf\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\addyf\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\addyf\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\addyf\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\addyf\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\addyf\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\addyf\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\addyf\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\addyf\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\addyf\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\addyf\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\addyf\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\addyf\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\addyf\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\addyf\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\addyf\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\addyf\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\addyf\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\addyf\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\addyf\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\addyf\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\addyf\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\addyf\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\addyf\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\addyf\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\addyf\.m2\repository\io\qameta\allure\allure-testng\2.15.0\allure-testng-2.15.0.jar;C:\Users\addyf\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\addyf\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\addyf\.m2\repository\io\qameta\allure\allure-test-filter\2.15.0\allure-test-filter-2.15.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\addyf"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
-    <property name="basedir" value="C:\Users\addyf\eclipse-workspace\Conduit"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.2"/>
     <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\addyf\eclipse-workspace\Conduit"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\addyf\AppData\Local\Temp\surefire6702756029546954440\surefirebooter8842234502043181004.jar"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="surefire.real.class.path" value="C:\Users\addyf\AppData\Local\Temp\surefire8486761357734065621\surefirebooter16870867416948834120.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
     <property name="user.name" value="addyf"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\addyf\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\addyf\AppData\Local\Temp\"/>
-    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.version" value="16.0.2"/>
     <property name="user.dir" value="C:\Users\addyf\eclipse-workspace\Conduit"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\addyf\Webdrivers;C:\Program Files\Redis\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.3\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\addyf\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\addyf\AppData\Local\Programs\Python\Python38-32\;C:\Users\addyf\AppData\Local\Microsoft\WindowsApps;C:\Users\addyf\AppData\Roaming\npm;C:\Users\addyf\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.3\bin;;;C:\Users\addyf\Desktop;;."/>
-    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\addyf\Webdrivers;C:\Program Files\Redis\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.3\bin;C:\Program Files\Java\jdk-16.0.2\bin;C:\Users\addyf\allure-2.16.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\addyf\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\addyf\AppData\Local\Programs\Python\Python38-32\;C:\Users\addyf\AppData\Local\Microsoft\WindowsApps;C:\Users\addyf\AppData\Roaming\npm;C:\Users\addyf\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.3\bin;;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.221-b11"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="52.0"/>
+    <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="goToSignInTest" classname="twelveTest.LandingPageTest" time="0.211">
+  <testcase name="signUpPageTitleTest" classname="twelveTest.signUpPageTest" time="0.098">
+    <failure message="SignUp page title did not match expected [Condut] but found [Conduit]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: SignUp page title did not match expected [Condut] but found [Conduit]
+	at twelveTest.signUpPageTest.signUpPageTitleTest(signUpPageTest.java:46)
+]]></failure>
+    <system-out><![CDATA[2021-12-02 13:18:45,935 main ERROR Unable to locate appender "STDOU" for logger config "root"
+I am in onStart method Automation Test
+[TestNG] RUNNING: Suite: "Automation Test" containing "4" Tests (config: C:\Users\addyf\eclipse-workspace\Conduit\testng.xml)
+[TestNG] INVOKING CONFIGURATION: "Automation Test" - @BeforeMethod twelveTest.signUpPageTest.setUp()
+Before navigating to: 'https://react-redux.realworld.io/'
+Navigated to:'https://react-redux.realworld.io/'
+Trying to find Element By : By.linkText: Sign up
+Found Element By : By.linkText: Sign up
+Trying to find Element By : By.linkText: Sign up
+Found Element By : By.linkText: Sign up
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c66833aebf89f894c64ff0d5608a67be)] -> link text: Sign up]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c66833aebf89f894c64ff0d5608a67be)] -> link text: Sign up]
+[TestNG] PASSED CONFIGURATION: "Automation Test" - @BeforeMethod twelveTest.signUpPageTest.setUp() finished in 16118 ms
+I am in onTestStart method signUpPageTitleTest start
+[TestNG] INVOKING: "Automation Test" - twelveTest.signUpPageTest.signUpPageTitleTest()
+I am in onTestFailure method signUpPageTitleTest failed
+]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 46953
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 39683
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 14, 2021 2:20:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Dec 02, 2021 1:18:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="goToSignUpTest" classname="twelveTest.LandingPageTest" time="0.284"/>
-  <testcase name="landingPageTitleTest" classname="twelveTest.LandingPageTest" time="0.03"/>
-  <testcase name="logoTest" classname="twelveTest.LandingPageTest" time="0.286"/>
-  <testcase name="LogoTest" classname="twelveTest.signUpPageTest" time="0.144">
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 32358
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 14, 2021 2:20:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="signUpPageTitleTest" classname="twelveTest.signUpPageTest" time="0.064">
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 28208
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 14, 2021 2:21:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="signUpTest_Invalid_1" classname="twelveTest.signUpPageTest" time="2.302">
-    <system-out><![CDATA[Sign Up was not successful
+  <testcase name="signUpTest_Invalid_1" classname="twelveTest.signUpPageTest" time="2.404">
+    <system-out><![CDATA[[TestNG] FAILED: "Automation Test" - twelveTest.signUpPageTest.signUpPageTitleTest() finished in 156 ms
+[TestNG] java.lang.AssertionError: SignUp page title did not match expected [Condut] but found [Conduit]
+[TestNG] 	at org.testng.Assert.fail(Assert.java:99)
+[TestNG] 	at org.testng.Assert.failNotEquals(Assert.java:1037)
+[TestNG] 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+[TestNG] 	at org.testng.Assert.assertEquals(Assert.java:122)
+[TestNG] 	at org.testng.Assert.assertEquals(Assert.java:629)
+[TestNG] 	at twelveTest.signUpPageTest.signUpPageTitleTest(signUpPageTest.java:46)
+[TestNG] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[TestNG] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+[TestNG] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[TestNG] 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+[TestNG] 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+[TestNG] 	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+[TestNG] 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+[TestNG] 	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+[TestNG] 	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+[TestNG] 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+[TestNG] 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+[TestNG] 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+[TestNG] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[TestNG] 	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+[TestNG] 	at org.testng.TestRunner.run(TestRunner.java:585)
+[TestNG] 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+[TestNG] 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+[TestNG] 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+[TestNG] 	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+[TestNG] 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+[TestNG] 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+[TestNG] 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+[TestNG] 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+[TestNG] 	at org.testng.TestNG.runSuites(TestNG.java:1069)
+[TestNG] 	at org.testng.TestNG.run(TestNG.java:1037)
+[TestNG] 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+[TestNG] 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+[TestNG] 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+[TestNG] 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+[TestNG] 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+[TestNG] 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+[TestNG] 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+[TestNG] INVOKING CONFIGURATION: "Automation Test" - @AfterMethod twelveTest.signUpPageTest.tearDown()
+[TestNG] PASSED CONFIGURATION: "Automation Test" - @AfterMethod twelveTest.signUpPageTest.tearDown() finished in 638 ms
+[TestNG] INVOKING CONFIGURATION: "Automation Test" - @BeforeMethod twelveTest.signUpPageTest.setUp()
+Before navigating to: 'https://react-redux.realworld.io/'
+Navigated to:'https://react-redux.realworld.io/'
+Trying to find Element By : By.linkText: Sign up
+Found Element By : By.linkText: Sign up
+Trying to find Element By : By.linkText: Sign up
+Found Element By : By.linkText: Sign up
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (0119f86c1a39d342026fa08d97785841)] -> link text: Sign up]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (0119f86c1a39d342026fa08d97785841)] -> link text: Sign up]
+[TestNG] PASSED CONFIGURATION: "Automation Test" - @BeforeMethod twelveTest.signUpPageTest.setUp() finished in 7272 ms
+I am in onTestStart method signUpTest_Invalid_1 start
+[TestNG] INVOKING: "Automation Test" - twelveTest.signUpPageTest.signUpTest_Invalid_1()
+Trying to find Element By : By.xpath: //input[@type='text']
+Found Element By : By.xpath: //input[@type='text']
+Trying to find Element By : By.xpath: //input[@type='email']
+Found Element By : By.xpath: //input[@type='email']
+Trying to find Element By : By.xpath: //input[@type='password']
+Found Element By : By.xpath: //input[@type='password']
+Trying to find Element By : By.xpath: //button[@type='submit']
+Found Element By : By.xpath: //button[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (0119f86c1a39d342026fa08d97785841)] -> xpath: //button[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (0119f86c1a39d342026fa08d97785841)] -> xpath: //button[@type='submit']]
+Trying to find Element By : By.className: error-messages
+Found Element By : By.className: error-messages
+Sign Up was not successful
+I am in onTestSuccess method signUpTest_Invalid_1 succeed
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 47660
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 21037
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 14, 2021 2:21:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Dec 02, 2021 1:19:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="signUpTest_Invalid_2" classname="twelveTest.signUpPageTest" time="3.193">
-    <system-out><![CDATA[Sign Up was not successful
+  <testcase name="signUpTest_Invalid_2" classname="twelveTest.signUpPageTest" time="1.992">
+    <system-out><![CDATA[[TestNG] PASSED: "Automation Test" - twelveTest.signUpPageTest.signUpTest_Invalid_1() finished in 2494 ms
+[TestNG]         invalid user name, invalid email test case
+[TestNG] INVOKING CONFIGURATION: "Automation Test" - @AfterMethod twelveTest.signUpPageTest.tearDown()
+[TestNG] PASSED CONFIGURATION: "Automation Test" - @AfterMethod twelveTest.signUpPageTest.tearDown() finished in 493 ms
+[TestNG] INVOKING CONFIGURATION: "Automation Test" - @BeforeMethod twelveTest.signUpPageTest.setUp()
+Before navigating to: 'https://react-redux.realworld.io/'
+Navigated to:'https://react-redux.realworld.io/'
+Trying to find Element By : By.linkText: Sign up
+Found Element By : By.linkText: Sign up
+Trying to find Element By : By.linkText: Sign up
+Found Element By : By.linkText: Sign up
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (94653cbddf5a9d6b251f8eddb8972404)] -> link text: Sign up]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (94653cbddf5a9d6b251f8eddb8972404)] -> link text: Sign up]
+[TestNG] PASSED CONFIGURATION: "Automation Test" - @BeforeMethod twelveTest.signUpPageTest.setUp() finished in 4503 ms
+I am in onTestStart method signUpTest_Invalid_2 start
+[TestNG] INVOKING: "Automation Test" - twelveTest.signUpPageTest.signUpTest_Invalid_2()
+Trying to find Element By : By.xpath: //input[@type='text']
+Found Element By : By.xpath: //input[@type='text']
+Trying to find Element By : By.xpath: //input[@type='email']
+Found Element By : By.xpath: //input[@type='email']
+Trying to find Element By : By.xpath: //input[@type='password']
+Found Element By : By.xpath: //input[@type='password']
+Trying to find Element By : By.xpath: //button[@type='submit']
+Found Element By : By.xpath: //button[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (94653cbddf5a9d6b251f8eddb8972404)] -> xpath: //button[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (94653cbddf5a9d6b251f8eddb8972404)] -> xpath: //button[@type='submit']]
+Trying to find Element By : By.className: error-messages
+Found Element By : By.className: error-messages
+Sign Up was not successful
+I am in onTestSuccess method signUpTest_Invalid_2 succeed
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 45559
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 20723
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 14, 2021 2:21:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Dec 02, 2021 1:19:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="signUpTest_Invalid_3" classname="twelveTest.signUpPageTest" time="2.581">
-    <system-out><![CDATA[Sign Up was not successful
+  <testcase name="signUpTest_Invalid_3" classname="twelveTest.signUpPageTest" time="2.154">
+    <system-out><![CDATA[[TestNG] PASSED: "Automation Test" - twelveTest.signUpPageTest.signUpTest_Invalid_2() finished in 2051 ms
+[TestNG] INVOKING CONFIGURATION: "Automation Test" - @AfterMethod twelveTest.signUpPageTest.tearDown()
+[TestNG] PASSED CONFIGURATION: "Automation Test" - @AfterMethod twelveTest.signUpPageTest.tearDown() finished in 524 ms
+[TestNG] INVOKING CONFIGURATION: "Automation Test" - @BeforeMethod twelveTest.signUpPageTest.setUp()
+Before navigating to: 'https://react-redux.realworld.io/'
+Navigated to:'https://react-redux.realworld.io/'
+Trying to find Element By : By.linkText: Sign up
+Found Element By : By.linkText: Sign up
+Trying to find Element By : By.linkText: Sign up
+Found Element By : By.linkText: Sign up
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (0f7e37c7a0efde45aaf87f0e2270110f)] -> link text: Sign up]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (0f7e37c7a0efde45aaf87f0e2270110f)] -> link text: Sign up]
+[TestNG] PASSED CONFIGURATION: "Automation Test" - @BeforeMethod twelveTest.signUpPageTest.setUp() finished in 4478 ms
+I am in onTestStart method signUpTest_Invalid_3 start
+[TestNG] INVOKING: "Automation Test" - twelveTest.signUpPageTest.signUpTest_Invalid_3()
+Trying to find Element By : By.xpath: //input[@type='text']
+Found Element By : By.xpath: //input[@type='text']
+Trying to find Element By : By.xpath: //input[@type='email']
+Found Element By : By.xpath: //input[@type='email']
+Trying to find Element By : By.xpath: //input[@type='password']
+Found Element By : By.xpath: //input[@type='password']
+Trying to find Element By : By.xpath: //button[@type='submit']
+Found Element By : By.xpath: //button[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (0f7e37c7a0efde45aaf87f0e2270110f)] -> xpath: //button[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (0f7e37c7a0efde45aaf87f0e2270110f)] -> xpath: //button[@type='submit']]
+Trying to find Element By : By.className: error-messages
+Found Element By : By.className: error-messages
+Sign Up was not successful
+I am in onTestSuccess method signUpTest_Invalid_3 succeed
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 33566
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 24260
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 14, 2021 2:21:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Dec 02, 2021 1:19:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

@@ -22,6 +22,8 @@ public class TestBase {
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
 	
+	public static ThreadLocal<WebDriver> tdriver = new ThreadLocal<WebDriver>();
+	
 	public static Logger log = LogManager.getLogger(TestBase.class);
 	
 	//constructor 
@@ -60,5 +62,9 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		log.info("Entering application URL");
 		driver.get(rb.getString("url_landingPage"));	 
+	}
+	
+	public static synchronized WebDriver getDriver() {
+		return tdriver.get();
 	}
 }

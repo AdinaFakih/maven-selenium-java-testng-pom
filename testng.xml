@@ -3,14 +3,15 @@
 <suite name="Conduit Test Suite">
 
 	<listeners>
-		<listener class-name="ExtentReportListener.ExtentReportNG" />
+		<listener class-name="reportListeners.ExtentReportNG" />
+		<listener class-name="reportListeners.testAllureListener" />
 	</listeners>
 	
-	<test thread-count="5" name="Automation Test">
+	<test thread-count="2" name="Automation Test">
 		<classes>
-	    	<class name="twelveTest.LandingPageTest"/>
-	    	<class name="twelveTest.signUpPageTest"/>
-	    	<class name="twelveTest.SignInPageTest"/>
+<!--    	<class name="twelveTest.LandingPageTest"/> -->
+	    	<class name="twelveTest.signUpPageTest"/>  
+<!--	    <class name="twelveTest.SignInPageTest"/>  -->
 	    </classes>
 	</test> <!-- Test -->
 	

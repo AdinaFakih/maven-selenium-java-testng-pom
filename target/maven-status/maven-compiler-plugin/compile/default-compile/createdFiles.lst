@@ -1,0 +1,12 @@
+twelveUtil\WebEventListener.class
+twelvePage\articlesPage.class
+reportListeners\testAllureListener.class
+twelvePage\LandingPage.class
+twelveUtil\TestUtil.class
+twelvePage\settingsPage.class
+reportListeners\ExtentReportNG.class
+twelvePage\signUpPage.class
+twelvePage\SignInPage.class
+twelveBase\TestBase.class
+twelvePage\homePage.class
+twelvePage\newPostPage.class

@@ -3,6 +3,8 @@ package twelvePage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import io.qameta.allure.Step;
 import twelveBase.TestBase;
 
 public class signUpPage extends TestBase{
@@ -49,6 +51,7 @@ public class signUpPage extends TestBase{
 		return logo.isDisplayed();
 	}
 	
+	@Step("verify user SignUp functionaly in_user {0}, in_email {1} , in_pwd {2}")
 	public int userSignUp(String in_user, String in_email ,String in_pwd){
 		username.sendKeys(in_user);
 		email.sendKeys(in_email);
