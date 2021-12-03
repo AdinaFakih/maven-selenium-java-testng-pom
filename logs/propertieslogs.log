@@ -1,17 +1,17 @@
-[INFO ] 2021-12-02 13:38:47.166 [main] TestBase - launching chrome browser
-[WARN ] 2021-12-02 13:38:47.299 [main] TestBase - logs for warn
-[FATAL] 2021-12-02 13:38:47.299 [main] TestBase - logs for fatal
-[INFO ] 2021-12-02 13:38:48.151 [main] TestBase - Entering application URL
-[INFO ] 2021-12-02 13:38:52.992 [main] TestBase - ************Title of the page is --> Conduit
-[INFO ] 2021-12-02 13:38:57.089 [main] TestBase - launching chrome browser
-[WARN ] 2021-12-02 13:38:57.089 [main] TestBase - logs for warn
-[FATAL] 2021-12-02 13:38:57.090 [main] TestBase - logs for fatal
-[INFO ] 2021-12-02 13:38:57.836 [main] TestBase - Entering application URL
-[INFO ] 2021-12-02 13:39:05.288 [main] TestBase - launching chrome browser
-[WARN ] 2021-12-02 13:39:05.288 [main] TestBase - logs for warn
-[FATAL] 2021-12-02 13:39:05.288 [main] TestBase - logs for fatal
-[INFO ] 2021-12-02 13:39:06.167 [main] TestBase - Entering application URL
-[INFO ] 2021-12-02 13:39:16.079 [main] TestBase - launching chrome browser
-[WARN ] 2021-12-02 13:39:16.079 [main] TestBase - logs for warn
-[FATAL] 2021-12-02 13:39:16.080 [main] TestBase - logs for fatal
-[INFO ] 2021-12-02 13:39:16.972 [main] TestBase - Entering application URL
+[INFO ] 2021-12-03 13:24:31.775 [main] TestBase - launching chrome browser
+[WARN ] 2021-12-03 13:24:31.802 [main] TestBase - logs for warn
+[FATAL] 2021-12-03 13:24:31.803 [main] TestBase - logs for fatal
+[INFO ] 2021-12-03 13:24:32.998 [main] TestBase - Entering application URL
+[INFO ] 2021-12-03 13:24:37.931 [main] TestBase - ************Title of the page is --> Conduit
+[INFO ] 2021-12-03 13:24:42.369 [main] TestBase - launching chrome browser
+[WARN ] 2021-12-03 13:24:42.369 [main] TestBase - logs for warn
+[FATAL] 2021-12-03 13:24:42.369 [main] TestBase - logs for fatal
+[INFO ] 2021-12-03 13:24:42.918 [main] TestBase - Entering application URL
+[INFO ] 2021-12-03 13:24:50.906 [main] TestBase - launching chrome browser
+[WARN ] 2021-12-03 13:24:50.906 [main] TestBase - logs for warn
+[FATAL] 2021-12-03 13:24:50.906 [main] TestBase - logs for fatal
+[INFO ] 2021-12-03 13:24:51.859 [main] TestBase - Entering application URL
+[INFO ] 2021-12-03 13:24:59.253 [main] TestBase - launching chrome browser
+[WARN ] 2021-12-03 13:24:59.254 [main] TestBase - logs for warn
+[FATAL] 2021-12-03 13:24:59.254 [main] TestBase - logs for fatal
+[INFO ] 2021-12-03 13:24:59.654 [main] TestBase - Entering application URL
